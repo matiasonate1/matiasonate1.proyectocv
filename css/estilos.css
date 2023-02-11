@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+}
+
+ /*  * {outline: 1px rgb(255, 0, 170) solid;}*/
+
+[class*="col-"] {
+    float: left;
+  }
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+body{
+  background-color: rgb(247, 231, 231);
+}
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+h1{
+    font-family:'Sofia Sans', sans-serif;
+    color: black;
+margin: 15px;
+}
+
+h2{
+  background-color: rgb(165, 185, 185);
+  color:rgb(0, 0, 0);
+}
+
+.col-10 h3{
+    margin: 5px;
+    margin-left: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.col-10 li{
+  list-style-type: square;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Foto de perfil*/
+img{
+    width: 60%;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 5px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+header{
+    background-color: rgb(208, 221, 224);
+    position: static;
+    margin: 0;
+}
+
+
+/*Estilo de la barra de navegacion*/
+.topnav {
+    overflow: hidden;
+    background-color: rgb(55, 59, 57);
+  }
+  
+  /* Estilo de los enlaces topnav */
+  .topnav a {
+    display: inline-block;
+    color: #f2f2f2;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 14px 18px;
+    text-decoration: none;
+  }
+  
+  /* Cambia el color al pasar el mouse */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(80, 89, 134);
+  }
+
+.sobremi p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+.sobremi h2{
+  font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.experiencia h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 20px;;
+}
+
+.estudios h2{
+  font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 20px;;
+}
+
+.habilidades h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 20px;;
+}
+
+.idiomas h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 20px;;
+}
+
+.infoadicional h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 20px;;
+}
+
+ span{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: 40px;
+    margin-top: 120px;
+}
+
+ li{
+    list-style-type: circle;
+    margin-left: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+
+/*Estilo de la barra de navegacion*/
+.redes {
+  overflow: hidden;
+  background-color: rgb(208, 221, 224);
+  text-align: center;
+  color: rgb(0, 0, 0);
+
+}
+
+h3{
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilo de los enlaces de redes */
+.redes a {
+  display: inline-block;
+  color: rgb(10, 10, 10);
+  width: 100%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding: 14px 18px;
+  text-decoration: none;
+}
+
+ /* Cambia el color al pasar el mouse */
+.redes a:hover {
+  background-color: rgb(135, 152, 168);
+  color: rgb(255, 255, 255);
+}
+
+/* Estilos de los íconos*/
+.fa-youtube:before{
+  color: rgb(168, 39, 39);
+}
+.fa-linkedin:before{
+  color: #0072b1;
+}
+.fa-facebook::before{
+  color: #3b5998;
+}
+.fa-instagram:before{
+  color: rgb(49, 51, 160);
+}
+
+/* estilo del boton "volver arriba"*/
+.btn-scrolltop {
+position: fixed;
+background-color:  rgb(111, 111, 194);  
+color:white;
+border: none;
+padding: 15px 20px;
+bottom: 100px;
+right: 20px;
+border-radius: 100%;
+cursor: pointer;
+transform: translateY(300px);
+}
+
+.btn-scrolltop-on{
+  transform: translateY(0);
+}
